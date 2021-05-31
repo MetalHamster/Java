@@ -3,6 +3,7 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import utils.OpenCVUtils;
 
 public class OpenCVTest extends Application {
 
