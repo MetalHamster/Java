@@ -1,0 +1,21 @@
+@startuml
+class DiceCup{
+..Attributes..
+- int val1
+- int val2
+- int val3
+- int val4
+- int val5
+- int val6
+..Methods..
++ roll()
++ toString()
+}
+class Dice{
+..Attributes..
+- int min
+- int max
+..Methods..
++ roll()
+}
+@enduml

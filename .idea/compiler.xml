@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Basics" />
         <module name="FX" />
-        <module name="JNA" />
         <module name="OpenCV" />
+        <module name="Basics" />
+        <module name="Webservices" />
+        <module name="JNA" />
+        <module name="Patterns" />
+        <module name="Homework" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,0 +1,12 @@
+@startuml
+class DiceStatistic{
+..Attributs..
+- int [] counter
+- int min
+- int max
+- String result
+..Methods..
++ String roll(int howMany)
+
+}
+@enduml

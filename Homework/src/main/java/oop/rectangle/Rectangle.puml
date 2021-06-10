@@ -1,0 +1,25 @@
+@startuml
+
+
+
+class Rectangle{
+    ..Constructers..
+    - Rectangle()
+    - Rectangle(int width, int length, int posY, int posX)
+    ..Attributes..
+    - int length
+    - int width
+    - int posX
+    - int posY
+    ..Methods..
+    + setArea(int width, int length)
+    + int getArea()
+    + getAreaParameters()
+    + setPositionXY(int posX, int posY)
+    + getPositionXY()
+}
+@enduml
+
+class Rectangle_Test{
+    object rectangle1
+}
